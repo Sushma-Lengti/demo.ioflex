@@ -1,0 +1,408 @@
+<!doctype html>
+<html>
+    <head>
+        <style>
+            body{
+                margin:0px;
+                padding:1px;
+            }
+            
+            #a{
+                width:1230px;
+                height:400px;
+                display:flex;
+            }
+            .navbar{
+                display:flex;
+                gap: 25px;
+                width:1230px;
+                background-color:rgb(0,0,0,0.5);
+                align-items:center;
+                justify-content: center;
+                height:35px;
+                color:white;
+
+            }
+            
+            #b{
+                width:350px;
+                height:200px;
+            }
+            #c{
+                width:350px;
+                height:200px;
+            }
+            #d{
+                width:350px;
+                height:200px;
+            }
+         
+    @supports(display:grid){
+        main{
+            max-width:4000px;
+            margin:0;
+        }
+
+        article{
+            margin:0;
+        }
+
+        .images{
+            display:grid;
+            grid-template-columns: repeat(auto-fit,
+            minmax(40px, 1fr));
+            grid-gap:50px;
+        }
+    }
+    .images{
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 80%;
+    }
+
+    .forest{
+        display: flex;
+        flex-flow: column;
+        
+        border:1px solid rgb(0,0,0,0.1);
+       
+        background-color: rgb(0,0,0,0.1);
+    }
+
+    .forest > h1{
+        margin:1px;
+    }
+
+
+    .forest > img{
+        order: -1;
+        align-self: center;
+    }
+
+    #e{
+        width:575px;
+        height:300px;
+    }
+
+    #f{
+       width:575px;
+       height:300px;
+    }
+
+    @supports(display:grid){
+        main{
+            max-width:4000px;
+            margin:0;
+        }
+
+        article{
+            margin:0;
+        }
+
+        .images2{
+            display:grid;
+            grid-template-columns: repeat(auto-fit,
+            minmax(50px, 1fr));
+            grid-gap:50px;
+        }
+    }
+    .images2{
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 80%;
+    }
+
+    .snow{
+        display: flex;
+        flex-flow: column;
+        border:1px solid rgb(0,0,0,0.1);
+        border-radius: 1rem;
+        
+    }
+
+    .snow > h1{
+        margin:1px;
+    }
+
+
+    .snow > img{
+        order: -1;
+        align-self: center;
+        
+    }
+    #g{
+        width:1230px;
+        height:400px;
+        display:flex;
+    }
+
+    #h{
+        width:265px;
+        height:200px;
+    }
+
+    #i{
+       width:265px;
+       height:200px;
+    }
+
+    #j{
+        width:265px;
+        height:200px;
+    }
+
+    #k{
+       width:265px;
+       height:200px;
+    }
+    
+     
+    #L{
+       width:1230px;
+       height:400px;
+       display:flex;
+    }
+
+    #m{
+       width:1230px;
+       height:400px;
+       display:flex; 
+       filter:blur(3px);
+    }
+
+    #abc1{
+       width:13%;
+       padding:05px;
+       height:150px;
+       width:265px;
+    }
+
+    input[type=text]{
+          width:250px;
+          height:25px;
+          background-color: rgb(0,0,0,0.2);
+          
+            
+        }
+
+        #n{
+            background-color:rgb(0,0,0,0.2) ;
+        }
+
+        @supports(display:grid){
+        main{
+            max-width:4000px;
+            margin:0;
+        }
+
+        article{
+            margin:0;
+        }
+
+        .images3{
+            display:grid;
+            grid-template-columns: repeat(auto-fit,
+            minmax(50px, 1fr));
+            grid-gap:50px;
+        }
+    }
+    .images3{
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 80%;
+    }
+
+    .ship{
+        display: flex;
+        flex-flow: column;
+        border:1px solid rgb(0,0,0,0.1);
+        border-radius: 1rem;
+        
+    }
+
+    .ship > h1{
+        margin:1px;
+    }
+
+
+    .ship > img{
+        order: -1;
+        align-self: center;
+        
+    }
+
+        </style>
+    </head>
+
+    <body>
+        <div class="navbar">
+          <div class="Homepage">Homepage</div>
+          <div class="About">About</div>
+          <div class="Services">Services</div>
+          <div class="Contact">Contact</div>
+          <div class="External">External</div>
+        </div>
+
+          <img id="a" src="https://cdn.pixabay.com/photo/2016/12/11/12/02/mountains-1899264_1280.jpg">
+          
+          <h1 style="color:white;position: absolute;top:150px;left:500px;">CONQUER</h1>
+          <h5 style="color:white;position: absolute;top:190px;left:500px;">Simple Bootstrap Template</h5>
+
+          <br><br>
+
+          <main class="images">
+
+            <article class="forest">
+                
+                <img id="b" src="https://cdn.pixabay.com/photo/2018/04/06/00/25/trees-3294681_1280.jpg">
+
+                <h4 style="color:green">Bootstrap v2.3.6</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo perferendis<br> saepe excepturi deserunt, beatae natus ex corrupti laborum quidem earum.</p>
+                <button style="color:white;background-color: green;border-color:green;width:100px;height:30px">Click Here</button>
+                
+            </article>
+
+            <article class="forest">
+               
+                <img id="c" src="https://cdn.pixabay.com/photo/2018/06/02/17/50/forest-3448818_1280.jpg">
+                <h4 style="color:skyblue">Responsive Designs</h4> 
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste officiis delectus ipsa minima doloremque porro itaque sit soluta ratione nihil.</p>
+                <button style="color:white;background-color: skyblue;border-color:skyblue;width:100px;height:30px">Click Here</button>
+                
+            </article>
+
+            <article class="forest">
+                
+                <img id="d" src="https://cdn.pixabay.com/photo/2016/11/25/15/14/landscape-1858602_1280.jpg">
+                <h4 style="color:brown">Parallax Layout</h4> 
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel, corrupti aliquam odit, quasi repudiandae pariatur velit porro, enim rem praesentium eaque voluptas obcaecati harum fugiat soluta repellendus laborum quas. Natus, sunt quod?</p>
+                <button style="color:white;background-color: brown;border-color:brown;width:100px;height:30px">Click Here</button>
+                
+            </article>
+
+          </main>
+
+          <br><br>
+
+          <main class="images2">
+
+            <article class="snow">
+                <div style="background-color: rgb(0,0,0,0.1);">
+                <img id="e" src="https://cdn.pixabay.com/photo/2017/03/15/13/27/rough-horn-2146181_1280.jpg">
+                <h4>Two Column Left Slide</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo perferendis saepe excepturi deserunt, beatae natus ex corrupti laborum quidem earum.</p>
+                </div>
+           
+            </article>
+
+            <article class="snow">
+
+                <div style="background-color: rgb(0,0,0,0.1);">
+                <img id="f" src="https://cdn.pixabay.com/photo/2019/12/02/16/37/snow-4668099_1280.jpg">
+                <h4>Two Column Right Slide</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo perferendis saepe excepturi deserunt, beatae natus ex corrupti laborum quidem earum.</p>
+                <center><button style="color:black;background-color:white;border-color:white;width:100px;height:30px">Read More</button></center>
+                </div>
+            </article>
+
+          </main>
+          <br><br>
+          
+          <img id="g" src="https://cdn.pixabay.com/photo/2021/05/30/13/06/lake-6295829_1280.jpg">
+
+          <h1 style="position: absolute;left:500px;top:1450px;color:white">Our Services</h1>
+          <h5 style="position: absolute;left:340px;top:1510px;color:white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur illo quam ab magni facere sit.</h5>
+          <h5 style="position: absolute;left:385px;top:1530px;color:white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, molestias.</h5>
+          <h5 style="position: absolute;left:430px;top:1550px;color:white">Lorem ipsum dolor sit amet consectetur adipisicing.</h5>
+          
+          <br><br>
+
+          <main class="images3">
+
+            <article class="ship">
+
+                <div style="background-color: rgb(0,0,0,0.1);">
+                <img id="h" src="https://cdn.pixabay.com/photo/2015/03/05/01/46/sailing-ship-659758_1280.jpg">
+                <h4>Column One</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos quas consectetur voluptates vitae distinctio eligendi!</p>
+            </div>
+            </article>
+            
+            <article class="ship">
+                <div style="background-color: rgb(0,0,0,0.1);">
+                <img id="i" src="https://cdn.pixabay.com/photo/2019/08/20/14/19/boat-4418919_1280.jpg">
+                <h4>Column Two</h4>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus, maiores.</p>
+            
+                <center><button style="color:black;background-color:white;border-color:white;width:100px;height:30px">Read it</button></center>
+            </div>
+            </article>
+
+            <article class="ship">
+                <div style="background-color: rgb(0,0,0,0.1);">
+                <img id="j" src="https://cdn.pixabay.com/photo/2018/09/16/12/28/gorch-fock-3681409_1280.jpg">
+                <h4>Column Three</h4>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Numquam esse id dicta saepe obcaecati eligendi molestiae illo reiciendis atque aperiam!</p>
+                 </div>
+            </article>
+
+            <article class="ship">
+                <div style="background-color: rgb(0,0,0,0.1);">
+                <img id="k" src="https://cdn.pixabay.com/photo/2017/10/01/18/47/trimaran-2806616_1280.jpg">
+                <h4>Column Four</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi sit accusantium similique iure error ex.</p>
+            
+                <center><button style="color:black;background-color:white;border-color:white;width:100px;height:30px">Details</button></center>
+                </div>
+            </article>
+       </main>
+
+       <br><br>
+       <main class="images4">
+        
+        <article class="beach chair">
+            <div style="background-color: rgb(0,0,0,0.1);">
+       <img id="L" src="https://cdn.pixabay.com/photo/2014/10/19/18/03/beach-chairs-494558_1280.jpg">
+
+       
+       <h4>One Big Column</h4>
+       
+       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta, enim accusantium eaque quis corporis quaerat, perferendis, illo libero quam doloremque accusamus molestiae dolores maxime natus reprehenderit? Odio quam aperiam nostrum, magni ipsam, tenetur veritatis laboriosam doloribus quos amet impedit iure et eos a aliquid animi repudiandae culpa numquam illum porro. Asperiores alias, reprehenderit maxime sequi mollitia neque porro nostrum ipsam corporis esse, qui accusantium et dolorum ex explicabo ab sint?</p>
+       <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Earum, perspiciatis! Quis officiis eius possimus cumque in perspiciatis recusandae autem sint consequatur hic architecto suscipit accusamus, ad earum corrupti nesciunt, dolores at repellendus? Aut magni deleniti nobis excepturi velit? Voluptate, perferendis omnis possimus nostrum hic exercitationem facilis optio animi eligendi consequuntur.</p>
+       <button style="color:black;background-color:white;border-color:white;width:100px;height:30px">Read More</button>
+       </div>
+       </article>
+       </main>
+        
+       <br><br>
+
+       <main class="image5">
+       <article class="highway">
+ 
+        <img id="m" src="https://cdn.pixabay.com/photo/2022/03/23/21/27/road-7087957_1280.jpg">
+
+        
+        <h1 style="position: absolute;left:550px;top:2830px;color:white">Contact Form</h1>
+       
+        <h5 style="position: absolute;left:340px;top:2870px;color:black">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur illo quam ab magni facere sit.</h5>
+        <h5 style="position: absolute;left:385px;top:2890px;color:black">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, molestias.</h5>
+        <h5 style="position: absolute;left:430px;top:2910px;color:black">Lorem ipsum dolor sit amet consectetur adipisicing.</h5>
+    
+        <input style="position: absolute;left:330px;top:2970px;color:black;border-color: transparent;" type="text" name="abc" id="abc" placeholder="Name">
+        <input style="position: absolute;left:330px;top:3020px;color:black;border-color: transparent" type="text" name="abc" id="abc" placeholder="Password">
+        <input style="position: absolute;left:330px;top:3070px;color:black;border-color: transparent" type="text" name="abc" id="abc" placeholder="Email">
+
+        <input style="position: absolute;left:630px;top:2970px;color:black;border-color: transparent" type="text" name="Abc" id="abc1"  placeholder="Your message here..." style="text-align:left;">
+
+        <button style="position: absolute;left:630px;top:3150px;color:white;border-color: white;background-color: black;border-radius: 5px;height:35px;width:100px">Send</button>
+
+       </article>
+
+       </main>
+
+       <center><h1 style="font-style: italic;color:gray">Use It Free!</h1></center>
+       <h5 style="position: absolute;left:385px;top:3270px;color:gray">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, molestias.</h5>
+    <h5 style="position: absolute;left:450px;top:3290px;color:gray">Lorem ipsum dolor sit amet consectetur adipisicing.</h5>
+    
+    
+    <h4 style="position: absolute;top:3350px;left:410px;color:gray"> Copyright@Your Company Name|Design Company Name</h4>
+    
+    </body>
+    <html>
